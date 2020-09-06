@@ -1,0 +1,103 @@
+@import 'style/normalize.min.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Grandstander&display=swap');
+html {
+  overflow-y: scroll;
+  background-color: #1A1A1A;;
+}
+.App {
+  text-align: center;
+  margin: auto;
+  background-color: #E9EBED;
+  font-size: 1.4em;
+
+
+  &::after{ 
+    content: "";
+    background-image: url('./React-icon.svg');
+    background-repeat: repeat;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    color: #000;
+  }
+
+}
+
+ 
+.header {
+  background-color: yellow;
+  z-index: 999;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  .inner-header {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.logo {
+  width: 20%;
+  float: left;
+  img {
+    height: 80px;
+    width: 80px;
+  }
+}
+.nav-bar {
+    list-style-type: none;
+    color: black;
+    width: 80%;
+    a {
+      display: inline-block;
+      text-decoration: none;
+      float: left;
+      font-size: 2em;
+      line-height: 1.8;
+      padding-right: 1.5em;
+      color: black;
+      font-weight: bold;
+      font-family: 'Grandstander';
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+  }
+  .sub-menu {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1rem;
+  }
+
+main {
+  width: 700px;
+  background-color: white;
+  padding-top: 80px;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+  margin: 0 auto;
+
+  p {
+    margin: 0.4em;
+  }
+}
+
+.footer {
+  background-color: #1A1A1A;
+  color: white;
+}
+
+.inner-footer {
+  width: 700px;
+  margin: 0 auto;
+  
+}
+
+.col {
+  width: 30%;
+  display: inline-block;
+}
+
