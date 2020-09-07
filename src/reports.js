@@ -1,5 +1,4 @@
-
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 const Reports = ({ match }) => {
   const kmom = match.params.kmom;

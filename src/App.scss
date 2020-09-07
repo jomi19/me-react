@@ -76,12 +76,13 @@ main {
   width: 700px;
   background-color: white;
   padding-top: 80px;
-  padding-left: 0.4em;
-  padding-right: 0.4em;
+  padding-bottom: 0.5em;
   margin: 0 auto;
+  text-align: center;
 
   p {
     margin: 0.4em;
+    border-bottom: 5px dashed #E9EBED;
   }
 }
 
