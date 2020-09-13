@@ -29,7 +29,7 @@ const Me = () => {
         inte hållt på med att göra hemsidor efter det. Jag gick en c# kurs innan jag sökte till dethär programet för att prova på.
         </p><p>
         Idag bor jag med min flickvän och hennes två barn i Torvalla som är ca 10minuter ifrån östersund.
-        Varranan vecka är jag uppe i kiruna och jobbar i en gruva vilket var långt ifrån så slitsamt jag trode det skulle vara.
+        Jag jobbar nu på 50% med betong samtidigt som jag pluggar.
         Har aldrig haft så mycke ledig tid som jag har veckorna jag är här uppe. Mitt mål är att jag ska försöka kombinera
         mitt liv hemma med min flickvän och hennes barn med plugget och jobbet då jag ska försöka jobba kvar här så länge
         jag kan sköta mina studier samtidigt.
