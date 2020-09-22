@@ -90,6 +90,9 @@ class Reports extends React.Component {
             pathname:"./../edit",
             kmom: report.kmom
             }}><input type="submit" className="submit green" value="Redigera" /></NavLink>
+          <p>GitHub</p>
+        <p><a href="https://github.com/jomi19/me-react">FrontEnd</a>  </p>
+        <a href="https://github.com/jomi19/me-api">Backend</a>
         </main>
       );
     } else {
@@ -99,7 +102,9 @@ class Reports extends React.Component {
           {
           report.text.split("</newrow>").map(sentence => <p>{sentence}</p>)
           }
-        <a href="https://github.com/jomi19/me-react">FrontEnd</a>
+          <p>GitHub</p>
+        <p><a href="https://github.com/jomi19/me-react">FrontEnd</a>  </p>
+        <a href="https://github.com/jomi19/me-api">Backend</a>
         </main>
       );
     }
