@@ -19,14 +19,14 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
-    "start": "node node_modules/http-server/bin/http-server -p 3000 src/App,js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "mocha test/**/*.js",
     "eslint": "eslint .",
     "eslintfix": "eslint . --fix",
     "eject": "react-scripts eject",
     "deploy": "npm run build && rsync -av build/* jomi19@207.154.193.144:/var/www/mejs.joakimm.me/html/",
-    "travistest": "npm start & npm run test"
+    "stest": "npm start & npm run test"
   },
   "eslintConfig": {
     "extends": "react-app"
