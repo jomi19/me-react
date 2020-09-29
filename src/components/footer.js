@@ -1,5 +1,5 @@
 import React from 'react';
-const Footer = ({ match }) => {
+const Footer = () => {
     return (
         <footer className="footer">
             <div className="inner-footer">
@@ -7,10 +7,9 @@ const Footer = ({ match }) => {
                 <div className="footer-col2 col">testar</div>
                 <div className="footer-col3 col">testar</div>
             </div>
-        </footer>    
-    )
-
-}
+        </footer>
+    );
+};
 
 
 
