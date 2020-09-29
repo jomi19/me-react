@@ -7,4 +7,3 @@ build:
             coverage:
               file: coverage/clover.xml
               format: clover
-%
