@@ -21,13 +21,12 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "npm start & npm run test-command",
     "eslint": "eslint .",
     "eslintfix": "eslint . --fix",
     "eject": "react-scripts eject",
     "test-command": "mocha test/**/*.js",
-    "deploy": "npm run build && rsync -av build/* jomi19@207.154.193.144:/var/www/mejs.joakimm.me/html/",
-    "stest": "npm start & npm run test-command"
+    "deploy": "npm run build && rsync -av build/* jomi19@207.154.193.144:/var/www/mejs.joakimm.me/html/"
   },
   "eslintConfig": {
     "extends": "react-app"

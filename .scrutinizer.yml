@@ -3,6 +3,6 @@ build:
     functional-tests:
       environment:
         selenium: true
-      - comand: npm test
+      - comand: npm run test
 
 
