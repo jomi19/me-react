@@ -19,7 +19,7 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node node_modules/http-server/bin/http-server -p 3000 src/App,js",
     "build": "react-scripts build",
     "test": "mocha test/**/*.js",
     "eslint": "eslint .",
