@@ -25,8 +25,9 @@
     "eslint": "eslint .",
     "eslintfix": "eslint . --fix",
     "eject": "react-scripts eject",
+    "test-command": "mocha test/**/*.js",
     "deploy": "npm run build && rsync -av build/* jomi19@207.154.193.144:/var/www/mejs.joakimm.me/html/",
-    "stest": "npm start & npm run test"
+    "stest": "npm start & npm run test-command"
   },
   "eslintConfig": {
     "extends": "react-app"
