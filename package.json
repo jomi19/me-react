@@ -25,7 +25,8 @@
     "eslint": "eslint .",
     "eslintfix": "eslint . --fix",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && rsync -av build/* jomi19@207.154.193.144:/var/www/mejs.joakimm.me/html/"
+    "deploy": "npm run build && rsync -av build/* jomi19@207.154.193.144:/var/www/mejs.joakimm.me/html/",
+    "travistest": "npm start & npm run test"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -43,7 +44,6 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^7.10.0",
     "eslint-plugin-react": "^7.21.2",
     "http-server": "^0.12.3",
     "javascript-style-guide": "^1.0.1",
