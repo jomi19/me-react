@@ -40,16 +40,15 @@ function assertH(target, size=1) {
 async function logIn() {
     browser.findElement(By.name("email")).then(function(element) {
         element.sendKeys("joakim@mail.se");
-    });
-
-
-    browser.findElement(By.name("password")).then(function(element) {
-        element.sendKeys("test");
-    });
-    browser.sleep(50);
-    browser.findElement(By.id("login")).then(function(element) {
-        element.click();
-    });
+        
+        browser.findElement(By.name("password")).then(function(element) {
+            element.sendKeys("test");
+        });
+    }).then(function() {
+        browser.findElement(By.id("login")).then(function(element) {
+            element.click();
+        });
+    })
 }
 
 
@@ -86,8 +85,6 @@ test.describe("Joakims mesida", function() {
         goToNavLink("user", true);
 
         matchUrl("login/");
-
-        logIn();
 
         browser.sleep(500);
         assertH("Inloggad");
