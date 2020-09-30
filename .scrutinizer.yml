@@ -1,12 +1,6 @@
 build:
   nodes:
-    functional-tests:
-      enviroment:
-        selenium: true
+    coverage:
       tests:
         override:
-          - command: npm run test
-
-
-
-
+          - js-scrutinizer-run
