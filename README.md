@@ -1,3 +1,6 @@
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/jomi19/me-react/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/jomi19/me-react/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/jomi19/me-react/badges/build.png?b=master)](https://scrutinizer-ci.com/g/jomi19/me-react/build-status/master) [![Build Status](https://travis-ci.org/jomi19/me-react.svg?branch=master)](https://travis-ci.org/jomi19/me-react)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
