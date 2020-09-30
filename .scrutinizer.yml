@@ -1,8 +1,12 @@
 build:
   nodes:
     functional-tests:
-      environment:
+      enviroment:
         selenium: true
-      - comand: npm run test
+      tests:
+        override:
+          - command: npm test
+
+
 
 
