@@ -13,8 +13,8 @@ const Header = function(props) {
                 <div className="logo"> <img src={logo} className="logo" alt="Js"></img></div>
                 <NavBar>
                     <NavItem name="Start" href="/" icon={<IconHome />}/>
-                    <NavItem name="Kmom" setState={props.setMenu} state={props.state}
-                        icon={<IconReport className="test dont" id="reports"/>}>
+                    <NavItem name="Kmom"  setState={props.setMenu} state={props.state}
+                        icon={<IconReport className="test dont" id="reports" />}>
                         <DropdownMenu test={props}/>
                     </NavItem>
                 </NavBar>
@@ -55,8 +55,8 @@ const NavItem = function(props) {
     }
     return (
         <li className="nav-item">
-            <a to={props.href} className="nav-button dont"
-                onClick={() => setOpen(!open) }>{props.icon}</a>
+            <a to={props.href} className="nav-button dont" href="/#"
+                onClick={(event) => {event.preventDefault(); setOpen(!open) }}>{props.icon}</a>
             {open && props.children}
         </li>
     );
