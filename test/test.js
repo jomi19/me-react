@@ -98,7 +98,7 @@ test.describe("Joakims mesida", function() {
             browser.findElement(By.linkText("Kmom01")).then(function(element) {
                 element.click();
             }).then(function() {
-                browser.sleep(50);
+                browser.sleep(500);
                 assertH("Kmom1", 2);
             });
         });
