@@ -86,7 +86,7 @@ test.describe("Joakims mesida", function() {
 
         matchUrl("login/");
 
-        browser.sleep(500);
+        browser.sleep(1000);
         assertH("Inloggad");
         done();
     });
