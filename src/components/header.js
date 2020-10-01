@@ -4,6 +4,7 @@ import logo from '../javascript.png';
 import  {ReactComponent as IconReport} from '../style/icons/file-alt.svg';
 import {ReactComponent as IconHome} from '../style/icons/home.svg';
 import {ReactComponent as UserIcon} from "../style/icons/user.svg";
+import {ReactComponent as ChatIcon} from "../style/icons/comments-solid.svg";
 
 const Header = function(props) {
     return (
@@ -17,6 +18,7 @@ const Header = function(props) {
                         icon={<IconReport className="test dont" id="reports" />}>
                         <DropdownMenu test={props}/>
                     </NavItem>
+                    <NavItem name="Chat" href="/chat" icon={<ChatIcon />}/>
                 </NavBar>
 
             </div>
@@ -77,6 +79,7 @@ const DropdownMenu = function(props) {
                 <DropdownItem href="/reports/week/1">Kmom01</DropdownItem>
                 <DropdownItem href="/reports/week/2">Kmom02</DropdownItem>
                 <DropdownItem href="/reports/week/3">Kmom03</DropdownItem>
+                <DropdownItem href="/reports/week/4">Kmom04</DropdownItem>
                 <DropdownItem href="/reports/add">Lägg till</DropdownItem>
             </div>
         );
@@ -86,6 +89,7 @@ const DropdownMenu = function(props) {
             <DropdownItem href="/reports/week/1">Kmom01</DropdownItem>
             <DropdownItem href="/reports/week/2">Kmom02</DropdownItem>
             <DropdownItem href="/reports/week/3">Kmom03</DropdownItem>
+            <DropdownItem href="/reports/week/4">Kmom04</DropdownItem>
         </div>
     );
 };

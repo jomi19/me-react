@@ -8,6 +8,7 @@ import Footer from './components/footer.js';
 import Header from './components/header.js';
 import User from './components/user/user';
 import EditReport from './components/reports/edit.js';
+import Chat from "./components/chat/main.js";
 
 
 
@@ -36,6 +37,7 @@ const App = () => {
                 <Route exact path="/reports/edit" render={(props) =>
                     <EditReport user={logInState} kmom={props.location.kmom}/>} />
                 <Route exact path="/" component={Me}  />
+                <Route exact path="/chat" component={Chat}  />
                 <Footer></Footer>
             </div>
         </Router>
